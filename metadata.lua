@@ -1,5 +1,5 @@
 return PlaceObj('ModDef', {
-	'title', "Template",
+	'title', "Stargate",
 	'description', "This mod is still a work in progress. Please hop in discord to help test or provide feedback. :)   https://discord.gg/kTgYq9UjWx",
 	'image', "Images/thumbnail.png",
 	'last_changes', "https://github.com/Surviving-Mars-Mods/Survivng_Mars_Mod_Template",
@@ -18,7 +18,7 @@ return PlaceObj('ModDef', {
 			'version_minor', 7,
 		}),
 	},
-	'id', "FFTemplateMod",
+	'id', "FFStargate",
 	'steam_id', "",
 	'pops_desktop_uuid', "",
 	'pops_any_uuid', "",
@@ -30,6 +30,8 @@ return PlaceObj('ModDef', {
 	'saved_with_revision', 1010838,
 	'code', {
 		"Code/Code.lua",
+		"Code/BuildingTemplate.lua",
+		"Code/Stargate.lua",
 	},
 	'saved', 1645033554,
 	'has_options', 'true',

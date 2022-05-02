@@ -2,4 +2,4 @@
  - Initial Release
 
 ### Version 1.0
- - Had an idea
+ - Idea based on Stargates by Lonesamurai

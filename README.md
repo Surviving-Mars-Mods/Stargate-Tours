@@ -1,17 +1,21 @@
 ![Thumbnail](Images/thumbnail.png)
 
-## Template Mod
- - Template Point 1
+## Stargate Tours
+ - Tourists can travel instantly to Mars via Stargate, giving them a satisfaction boost to begin their vacation.
 
 ### Description:
-This is a super great mod!
+Requires a large amount of electricity to be stored in order to fire the Stargate, relative to the performance of the building.
+
+Stargate also operates as a high-performance capacitor.
+
+![InfoPanel](Images/infopanel.png)
 
 ### Options:
-This mod has lots of options!
+This mod has no options... yet!
 
-    Pick Your Poision
-        Yummy
-        Yucky
+    Which is it?
+        2B
+        !2B
 
 
 ## Notes:
