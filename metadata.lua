@@ -1,8 +1,8 @@
 return PlaceObj('ModDef', {
 	'title', "Stargate",
-	'description', "This mod is still a work in progress. Please hop in discord to help test or provide feedback. :)   https://discord.gg/kTgYq9UjWx",
+	'description', "Stargates allow Tourists to instantly travel to Mars, giving them a Satisfaction boost!  Readme: https://github.com/Surviving-Mars-Mods/Stargate-Tours",
 	'image', "Images/thumbnail.png",
-	'last_changes', "https://github.com/Surviving-Mars-Mods/Survivng_Mars_Mod_Template",
+	'last_changes', "https://github.com/Surviving-Mars-Mods/Stargate-Tours",
 	'ignore_files', {
 		"*.git/*",
 		"*.svn/*",
