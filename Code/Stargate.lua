@@ -9,11 +9,11 @@ DefineClass.Stargate = {
     __parents = { "ElectricityStorage", "Workplace" },
 
     MinimumCharge = 100,
+    TouristsTransported = 0
 }
 
 function Stargate:BuildingUpdate(Delta, ...)
-    if self.working then
-        local ElectricityTarget = self.MinimumCharge * (150 - self.performance) * const.ResourceScale
+       local ElectricityTarget = self.MinimumCharge * (150 - self.performance) * const.ResourceScale
         Log("Target = ", ElectricityTarget)
         if self:GetStoredPower() >= ElectricityTarget then
             for k,v in ipairs(_G['g_ApplicantPool']) do
@@ -27,19 +27,22 @@ function Stargate:BuildingUpdate(Delta, ...)
                         self.electricity.current_storage = self.electricity.current_storage - ElectricityTarget
                         self.mode = "charging"
 
-                        Log("Colonist Arriving...")
-                        local Bob = Colonist:new(GenerateColonistData(MainCity, nil, nil, { gender = Victim.gender, entity_gender = Victim.entity_gender }))  -- from Canada, eh?
-                        Bob:SetPos(GetRandomPassableAroundOnMap(self:GetMapID(), self:GetPos(), 10 * guim))
+                            Log("Colonist Arriving...")
+                            local Bob = Colonist:new(GenerateColonistData(MainCity, nil, nil, { gender = Victim.gender, entity_gender = Victim.entity_gender }))  -- from Canada, eh?
+                            Bob:SetPos(GetRandomPassableAroundOnMap(self:GetMapID(), self:GetPos(), 10 * guim))
 
-                        Log("Updating Colonist")
-                        Bob.name = Victim.name
-                        MakeTourist(Bob)
-                        Bob:SetSpecialization("Tourist", true)
-                        Bob:ChangeSatisfaction(10000, "Stargate Entry")
-
+                        if self.working then
+                            Log("Updating Colonist")
+                            Bob.name = Victim.name
+                            MakeTourist(Bob)
+                            Bob:SetSpecialization("Tourist", true)
+                            Bob:ChangeSatisfaction(10000, "Stargate Entry")
+                        else
+                            Bob:SetCommand("Die", "Stargate Malfunction")
+                            Log("Victim terminated! Muahahahaha!!!")
+                        end
                         Log("SUCCESS!")
                         return
-                    end
                 end
             end
             Log("No victims available :(")

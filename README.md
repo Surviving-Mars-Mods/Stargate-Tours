@@ -10,14 +10,6 @@ Stargate also operates as a high-performance capacitor.
 
 ![InfoPanel](Images/infopanel.png)
 
-### Options:
-This mod has no options... yet!
-
-    Which is it?
-        2B
-        !2B
-
-
 ## Notes:
 If you have any feedback please contact me directly instead of reporting the mod. I'm always happy to take requests as well.<br>
 I hang out in [*Discord*](https://discord.gg/kTgYq9UjWx) and on [*Reddit*](https://www.reddit.com/user/Fizzle_Fuze)
@@ -36,18 +28,23 @@ Have a good game,<br>
 ### Contact Me:
 I appreciate feedback on my mods and ideas for new ones!
  - Discord:https://discord.gg/kTgYq9UjWx
- -  Reddit: /u/Fizzle_Fuze (/r/SurvivingMars)
+ - Reddit: /u/Fizzle_Fuze (/r/SurvivingMars)
+ - Email: mods@fizzlefuze.com
  -  GitHub: https://github.com/Surviving-Mars-Mods
- -  Email: mods@fizzlefuze.com
 
 See [*Info/ContactMe.txt*](Info/ContactMe.txt) for more info on contacting me. 
 
 ### Other Locations:
-My mods are also available on Steam and the Paradox Website:
+My mods are available on Steam, the Paradox Website, as well as GitHub:
 
 [Steam Workshop](https://steamcommunity.com/id/fizzle_fuze/myworkshopfiles/?appid=464920) <br>
-[Paradox Plaza](https://mods.paradoxplaza.com/games/surviving_mars?search=Fizzle_Fuze&sortBy=best)
+[Paradox Plaza](https://mods.paradoxplaza.com/games/surviving_mars?search=Fizzle_Fuze&sortBy=best) <br>
+[GitHub](https://github.com/Surviving-Mars-Mods)
 
+### Special Thanks
+- Thanks to everyone who has helped me learning to Mod better.
+- Thanks to ChoGGi for his excellent excellent examples and helpful attitude.
+- Thanks to everyone who enjoys my Mods and provides feedback on them.
 
 ### License:
  See [*Info/License.md*](Info/license.md) and [*Info/LICENSE*](Info/LICENSE) for copyright and licensing info.
